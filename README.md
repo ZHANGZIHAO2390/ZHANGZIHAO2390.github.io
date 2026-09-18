@@ -1,4 +1,4 @@
-﻿# Zhang Zihao — Personal Site
+﻿# Zihao Zhang — Personal Site
 
 Academic homepage (Geoinformatics / Urban Mobility).
 
