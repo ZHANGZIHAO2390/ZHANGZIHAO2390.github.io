@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zhang Zihao | Geoinformatics & Urban Mobility</title>
+  <meta name="description" content="Zhang Zihao — MSc Geoinformatics Engineering at Politecnico di Milano; Research Assistant at Lund University. Causal inference, urban mobility, and spatial data.">
+  <meta name="author" content="Zhang Zihao">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <button class="mobile-nav-toggle" type="button" aria-label="Open menu" id="navToggle">☰</button>
+
+  <header id="header">
+    <nav class="nav-menu" aria-label="Primary">
+      <ul>
+        <li><a class="nav-link active" href="#hero" data-section="hero" title="Home"><span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3.2 3 11h2v9h5v-6h4v6h5v-9h2L12 3.2z"/></svg></span><span class="label">Home</span></a></li>
+        <li><a class="nav-link" href="#about" data-section="about" title="About"><span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 12a4.5 4.5 0 1 0-4.5-4.5A4.5 4.5 0 0 0 12 12zm0 2c-4 0-8 2-8 5v1h16v-1c0-3-4-5-8-5z"/></svg></span><span class="label">About</span></a></li>
+        <li><a class="nav-link" href="#resume" data-section="resume" title="Resume"><span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 3h8l4 4v14a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm7 1.5V8h3.5L14 4.5zM8 12h8v1.5H8V12zm0 3.5h8V17H8v-1.5zm0-7h5V10H8V8.5z"/></svg></span><span class="label">Resume</span></a></li>
+        <li><a class="nav-link" href="#awards" data-section="awards" title="Awards"><span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2.8 14.4 9h6.2l-5 3.7 1.9 6.2L12 15.8 6.5 18.9 8.4 12.7l-5-3.7h6.2L12 2.8z"/></svg></span><span class="label">Awards</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-map" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <h1>ZHANG ZIHAO</h1>
+      <p class="typed-line">I'm <span id="typed"></span><span class="cursor" aria-hidden="true">|</span></p>
+      <div class="social-links">
+        <a href="https://github.com/ZHANGZIHAO2390" target="_blank" rel="noopener noreferrer" title="GitHub" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.37.5 0 5.87 0 12.5c0 5.3 3.44 9.79 8.21 11.38.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.21.09 1.85 1.24 1.85 1.24 1.07 1.84 2.81 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.34-5.47-5.95 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.65.24 2.87.12 3.17.77.84 1.24 1.91 1.24 3.22 0 4.62-2.81 5.65-5.49 5.95.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.82.58A12 12 0 0 0 24 12.5C24 5.87 18.63.5 12 .5z"/></svg>
+        </a>
+        <a href="mailto:zhangzihaocs@163.com" title="Email" aria-label="Email">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5L4 8V6l8 5 8-5v2z"/></svg>
+        </a>
+        <a href="https://arxiv.org/abs/2608.12281" target="_blank" rel="noopener noreferrer" class="social-text" title="arXiv" aria-label="arXiv preprint">arXiv</a>
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About</h2>
+        <p class="section-lead">Geoinformatics student and research assistant working on causal inference for urban mobility, large-scale spatial data, and built-environment embeddings.</p>
+
+        <div class="about-grid">
+          <div class="about-photo">
+            <img src="assets/avatar.jpg" alt="Portrait of Zhang Zihao" width="400" height="400" loading="lazy">
+          </div>
+          <div class="about-body">
+            <h3>MSc Geoinformatics Engineering &amp; Mobility Researcher</h3>
+            <p class="about-intro">Currently developing expertise in urban mobility analysis, spatial econometrics, and geospatial data engineering through academic research and applied transport work.</p>
+            <ul class="facts">
+              <li><strong>Qualification:</strong> MSc Geoinformatics Engineering</li>
+              <li><strong>Location:</strong> Milan, Italy · Lund, Sweden</li>
+              <li><strong>Advisor:</strong> Dr. Yuan Liao (Lund University)</li>
+              <li><strong>GitHub:</strong> <a href="https://github.com/ZHANGZIHAO2390" target="_blank" rel="noopener noreferrer">ZHANGZIHAO2390</a></li>
+            </ul>
+            <p>
+              I am an MSc student in Geoinformatics Engineering at Politecnico di Milano and a Research Assistant at Lund University under Dr. Yuan Liao.
+              My research focuses on how neighborhoods adapt in mobility under macroeconomic shocks, and how satellite foundation-model embeddings of the built environment moderate socioeconomic gradients in human mobility.
+              I have an arXiv preprint on oil-price shocks and mobility adaptation, and previously worked as a Solutions Engineer on provincial highway data systems in Hunan.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Resume</h2>
+
+        <h3 class="resume-heading">Education</h3>
+        <div class="timeline">
+          <article class="timeline-item">
+            <h4>Master of Science — Geoinformatics Engineering</h4>
+            <h5>Sep 2025 – Jun 2027 (expected)</h5>
+            <em>Politecnico di Milano, Italy</em>
+            <p><strong>GPA:</strong> 27.42/30</p>
+            <ul>
+              <li>Relevant courses: Geospatial Data Analysis; Fundamentals of Operations Research; Positioning &amp; Location-based Services; Computing Infrastructure</li>
+            </ul>
+          </article>
+          <article class="timeline-item">
+            <h4>Bachelor of Engineering — Traffic Engineering</h4>
+            <h5>Sep 2019 – Jun 2023</h5>
+            <em>Changsha University of Science and Technology, China</em>
+            <p><strong>GPA:</strong> 87.30/100 (top 10%)</p>
+            <ul>
+              <li>Relevant courses: Operations Research; Traffic Data Analysis; Traffic Simulation; Transport Planning; Python Programming</li>
+              <li>Independent research (2022): cellular-automaton simulation of mixed AV–human traffic; identified phase-transition points and quantified AV-penetration effects on flow stability</li>
+            </ul>
+          </article>
+        </div>
+
+        <h3 class="resume-heading">Published Research</h3>
+        <div class="timeline">
+          <article class="timeline-item">
+            <h4>Oil price shocks reveal unequal capacities for mobility adaptation</h4>
+            <h5>2026</h5>
+            <em>arXiv preprint · arXiv:2608.12281</em>
+            <ul>
+              <li>Zhang, Z., Zhang, Y., Ma, X., &amp; Liao, Y.</li>
+              <li>Studies unequal urban capacities for mobility adaptation under fuel-price shocks (US + China)</li>
+              <li class="links">
+                <a href="https://arxiv.org/abs/2608.12281" target="_blank" rel="noopener noreferrer">preprint</a>
+                <span>·</span>
+                <a href="https://github.com/ZHANGZIHAO2390/oil-shock-mobility-adaptation" target="_blank" rel="noopener noreferrer">repo</a>
+              </li>
+            </ul>
+          </article>
+          <article class="timeline-item">
+            <h4>Satellite Embeddings Reveal How the Built Environment Moderates Socioeconomic Gradients in Human Mobility</h4>
+            <h5>in preparation</h5>
+            <em>Working paper; not yet submitted</em>
+            <ul>
+              <li>Zhang, Z., Hall, O., Stark, P., Grillitsch, M., &amp; Liao, Y.</li>
+              <li>Uses TESSERA satellite foundation-model embeddings and multilevel models to study built-environment moderation of SES–mobility gradients in Sweden</li>
+            </ul>
+          </article>
+        </div>
+
+        <h3 class="resume-heading">Professional Experience</h3>
+        <div class="timeline">
+          <article class="timeline-item">
+            <h4>Research Assistant</h4>
+            <h5>2026 – present</h5>
+            <em>Lund University (advisor: Dr. Yuan Liao), Lund, Sweden</em>
+            <ul>
+              <li><strong>Macro shocks and urban mobility:</strong> designed processing for Advan (SafeGraph) Weekly Patterns Plus POI-visit data; cleaned 1.7 trillion POI-visit records across 122,000 neighborhoods in China and the US (126 weekly panels); built OD frequencies and visit-weighted travel radius indicators</li>
+              <li><strong>Identification:</strong> co-developed a two-step hierarchical panel regression-discontinuity design using international energy-price shocks; residualized against coverage proxies and two-way fixed effects; recovered neighborhood treatment effects via BLUPs; validated with placebo, bandwidth, and shrinkage diagnostics</li>
+              <li><strong>TESSERA project:</strong> multilevel random-slopes models linking SES to trip diversity and spatial extent across Sweden; derived interpretable built-environment axes that moderate SES–mobility gradients (dense urban form compresses spatial-activity inequality; vegetation amplifies it)</li>
+            </ul>
+            <p class="stack"><strong>Tech stack:</strong> Python | pandas | geopandas | statsmodels | spatial panels | satellite embeddings</p>
+            <p class="stack"><strong>Techniques:</strong> Panel RDD | multilevel modelling | POI-visit engineering | causal validation</p>
+          </article>
+          <article class="timeline-item">
+            <h4>Solutions Engineer</h4>
+            <h5>Jan 2024 – Sep 2025</h5>
+            <em>Hunan Provincial Communications Science Research Institute, Changsha, China (full-time)</em>
+            <ul>
+              <li>Built a Python automation pipeline for multi-source highway data (toll records, GPS trajectories, meteorology), reducing per-period cleaning time from 2 days to 4 hours over a 7,000+ km road network</li>
+              <li>Mined holiday travel trajectories; identified 12 recurrent congestion bottlenecks; proposed ramp-control and tidal-flow strategies, 8 of which were adopted by the provincial monitoring centre</li>
+            </ul>
+            <p class="stack"><strong>Tech stack:</strong> Python | GPS trajectories | toll &amp; meteorology data | QGIS</p>
+            <p class="stack"><strong>Techniques:</strong> Spatiotemporal mining | highway operations analytics | automation pipelines</p>
+          </article>
+        </div>
+
+        <h3 class="resume-heading">Selected Code &amp; Projects</h3>
+        <div class="timeline">
+          <article class="timeline-item">
+            <h4>oil-shock-mobility-adaptation</h4>
+            <h5>Research code</h5>
+            <em>Unequal urban capacities for mobility adaptation under fuel-price shocks (US + China)</em>
+            <ul>
+              <li class="links"><a href="https://github.com/ZHANGZIHAO2390/oil-shock-mobility-adaptation" target="_blank" rel="noopener noreferrer">repo</a></li>
+            </ul>
+          </article>
+        </div>
+
+        <h3 class="resume-heading">Technical Skills</h3>
+        <div class="skills-block">
+          <p><strong>Causal inference &amp; econometrics:</strong> regression discontinuity (panel/spatial designs); panel models; spatial econometrics; multilevel modelling; variance decomposition</p>
+          <p><strong>Programming:</strong> Python (pandas, geopandas, statsmodels); MATLAB; R</p>
+          <p><strong>Machine learning:</strong> deep learning (LSTM, CNN) for transport simulation and trajectory data</p>
+          <p><strong>Spatial tools:</strong> QGIS; Jupyter Notebook; CAD</p>
+          <p><strong>Languages:</strong> Mandarin (native); English (IELTS 6.5, CET-6)</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="awards" class="section">
+      <div class="container">
+        <h2 class="section-title">Awards &amp; Accomplishments</h2>
+        <div class="timeline">
+          <article class="timeline-item">
+            <h4>First-class Scholarship (×3) &amp; University Merit Student</h4>
+            <em>Changsha University of Science and Technology</em>
+          </article>
+          <article class="timeline-item">
+            <h4>1st Prize — Hunan Provincial Logistics Design Competition</h4>
+          </article>
+          <article class="timeline-item">
+            <h4>3rd Prize — National Marketing Survey &amp; Analysis Competition</h4>
+          </article>
+          <article class="timeline-item">
+            <h4>3rd Prize — National Advanced Drawing &amp; Modelling Competition</h4>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt contact">
+      <div class="container contact-box">
+        <h2 class="section-title">Zhang Zihao</h2>
+        <p class="contact-role">Student · Geoinformatics &amp; Urban Mobility Researcher</p>
+        <p>Feel free to get in touch for research collaborations, discussions, or opportunities.</p>
+        <p><strong>Email:</strong> <a href="mailto:zhangzihaocs@163.com">zhangzihaocs@163.com</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/ZHANGZIHAO2390" target="_blank" rel="noopener noreferrer">github.com/ZHANGZIHAO2390</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Zhang Zihao</p>
+    </div>
+  </footer>
+
+  <a href="#hero" class="back-to-top" id="backTop" aria-label="Back to top">↑</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
